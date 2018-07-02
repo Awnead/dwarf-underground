@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from './Header'
 import Author from './Author'
 import CurrentArticle from './CurrentArticle'
+import Footer from './Footer'
 import OtherArticles from './OtherArticles'
 import './App.css';
 
@@ -17,6 +18,7 @@ class App extends Component {
         <h2 className="article-title">Gold Madness - Fact or Fiction?</h2>
         <Author />
         <CurrentArticle />
+        
         <div className="article-links">
           <a className="article-link" href="#">
             <i className="fa fa-comments-o"></i>
@@ -44,11 +46,8 @@ class App extends Component {
 
       <OtherArticles />
     </main>
-
-    <footer className="expanded row">
-      <h6>&copy; 2017 Erebor Industries</h6>
-      <h6 className="float-right">All rights reserved</h6>
-    </footer>
+    <Footer />
+    
 
     
       </div>
