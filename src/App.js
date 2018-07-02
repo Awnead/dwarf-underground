@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Header from './Header'
-import Author from './Header'
+import Author from './Author'
 import './App.css';
 
 class App extends Component {
