@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from './Header'
 import Author from './Author'
 import CurrentArticle from './CurrentArticle'
+import Social from './Social'
 import Footer from './Footer'
 import OtherArticles from './OtherArticles'
 import './App.css';
@@ -19,16 +20,7 @@ class App extends Component {
         <Author />
         <CurrentArticle />
         
-        <div className="article-links">
-          <a className="article-link" href="#">
-            <i className="fa fa-comments-o"></i>
-            <span className="article-link-text">Comments</span>
-          </a>
-          <a className="article-link" href="#">
-            <i className="fa fa-share"></i>
-            <span className="article-link-text">Share Post</span>
-          </a>
-        </div>
+        <Social />
       </div>
       <aside className="large-4 medium-12 columns">
         <div className="ad">
